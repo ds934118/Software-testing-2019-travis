@@ -38,7 +38,7 @@ public class Multiplication {
         int ans = factorizationStub.factorizationRoot(total, ifAbsolute);
         Iterator<Integer> it = array.iterator();
         while (it.hasNext()) {
-            ans *= it.next();
+            ans = ans * it.next();
         }
         return ans;
     }
